@@ -1,1 +1,1 @@
-[My CV](https://coding-memories.github.io/rsschool-cv/cv).
+[My CV](https://codingmemories.github.io/rsschool-cv/cv).

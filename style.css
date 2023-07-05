@@ -12,19 +12,38 @@ body {
   justify-content: space-between;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
 }
 
 .header {
-  border: 1px solid red;
+  background-color: rgb(168, 155, 189);
 }
 
 .nav-list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  list-style-type: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  color: rgb(235, 230, 230);
+  text-decoration: none;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: rgb(235, 230, 230);
 }
 
 

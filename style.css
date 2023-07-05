@@ -23,6 +23,7 @@ html {
 
 .header {
   background-color: rgb(168, 155, 189);
+  border-bottom: 5px solid rgb(180, 164, 164);
 }
 
 .nav-list {
@@ -35,9 +36,12 @@ html {
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
+  transition: .3s;
+}
+
+.nav-item a{
   color: rgb(235, 230, 230);
   text-decoration: none;
-  transition: .3s;
   cursor: pointer;
 }
 

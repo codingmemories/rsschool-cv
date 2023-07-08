@@ -6,6 +6,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,11 +22,13 @@ html {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 
 .header {
-  background-color: rgb(168, 155, 189);
-  border-bottom: 5px solid rgb(180, 164, 164);
+  background-color: #829985;
+  border-bottom: 1px solid rgb(180, 164, 164);
 }
 
 .nav-list {
@@ -50,4 +55,91 @@ html {
   color: rgb(235, 230, 230);
 }
 
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.section {
+  width: 50%;
+  padding: 45px;
+  border-bottom: 1px solid #829985;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 50px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #829985;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 25px;
+  border-bottom: 1px solid #829985;
+  border-bottom-left-radius: 75px;
+  border-bottom-right-radius: 25px;
+}
+
+.section-title__title {
+  margin: auto;
+  padding-right: 75px;
+}
+
+.section-title__avatar {
+  padding-left: 150px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+/* unicode White square*/
+.section-contacts li,
+.section-skills li,
+.section-courses li,
+.section-projects li {
+  list-style-type: "\25A1";
+  padding: 2px;
+}
+
+.section-contacts a,
+.section-code a,
+.section-projects a,
+.footer a {
+  color: rgb(34, 32, 32);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(94, 87, 87);
+}
+
+.section-code__link {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.footer {
+  background-color: #829985;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color: #d0e6d3;
+  margin: auto;
+}
+
+.footer a {
+  color: #d0e6d3;
+}

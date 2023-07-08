@@ -1,10 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>lorem ipsum</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV-Vasylyna Lykhogodenko</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Lorem ipsum</h1>
-<body/>
-<html/>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section-title" id="profile">
+        <div class="section-title__title">
+          <h1>Vasylyna Lykhogodenko</h1>
+          <h3>Front-end Developer</h3>
+        </div>
+        <div class="section-title__avatar">
+          <img src="assets/img/avatar.png" alt="my photo">
+        </div>
+      </section>
+      <section class="section section-contacts" id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li><a href="mailto:devvasylyna@gmail.com">Email: devvasylyna@gmail.com</a></li>
+          <li><a href="https://github.com/codingmemories">GitHub: codingmemories</a></li>
+          <li><a href="https://www.linkedin.com/in/vasylyna-lykhogodenko/">LinkedIn: Vasylyna Lykhogodenko</a></li>
+          <li><a href="https://discord.com/">Discord: Vasylyna#7024</a></li>
+        </ul>
+      </section>
+      <section class="section section-summary" id="summary">
+        <h2>Summary</h2>
+        <p>As a problem-solving-oriented Frontend Developer with 1+ years of experience in web development using
+          React and basic knowledge of Angular, I am skilled in designing and implementing complex user
+          interfaces for a seamless user experience. With a strong understanding of React, I have successfully built
+          e-commerce websites and am capable of handling additional responsibilities beyond website
+          development.</p>
+      </section>
+      <section class="section section-skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Web-development: JavaScript, HTML5, CSS3</li>
+          <li>Frameworks and libraries: Angular, React</li>
+          <li>Version Control: GIT, GitHub</li>
+          <li>Graphics: Figma</li>
+        </ul>
+      </section>
+      <section class="section section-code" id="code">
+        <h2>Code</h2>
+        <pre>
+          <a href="https://www.codewars.com/kata/596776fbb4f24d0d82000141" target="_blank"><span class="section-code__link">Try it (link to kata)</span></a>
+          <code>
+            function f(x, cc) {
+              const lookup = {
+                [cc.a]: cc.b,
+                [cc.b]: cc.c,
+                [cc.c]: cc.a
+              };
+              return lookup[x];
+            }
+          </code>
+        </pre>
+      </section>
+      <section class="section section-courses" id="courses">
+        <h2>Courses</h2>
+        <ul>
+          <li>Angular Developer Course, ZTM Academy, Udemy </li>
+          <li>React Developer Course, ZTM Academy, Udemy</li>
+          <li>Advanced React Development Workshop, SheCodes</li>
+          <li>JavaScript/Front-End Course, The Rolling Scopes School</li>
+          <li>Web Developer Course (HTML, CSS, JS), ZTM Academy, Udemy</li>
+        </ul>
+      </section>
+      <section class="section section-projects" id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="https://github.com/codingmemories/weather-app" target="_blank">Weather App</a></li>
+          <li><a href="https://github.com/codingmemories/vanilla-recipe-app" target="_blank">Recipe App</a></li>
+          <li><a href="https://github.com/codingmemories/dictionary-app" target="_blank">Dictionary App</a></li>
+          <li><a href="https://github.com/codingmemories/quote-generator">Quote generator</a></li>
+        </ul>
+      </section>
+      <section class="section section-education" id="education">
+        <h2>Education</h2>
+        <p>Bachelor of Arts, Lviv Polytechnic National University, Ukraine</p>
+      </section>
+      <section class="section section-english" id="english">
+        <h2>English</h2>
+        <p>English - Upper Intermediate</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>©2023</p>
+      <a href="https://github.com/codingmemories">codingmemories</a>
+      <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="rs school logo" width="100"></a>
+    </div>
+  </footer>
+</body>
+</html>
